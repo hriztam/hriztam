@@ -1,23 +1,42 @@
 const axios = require('axios');
-const fs = require('fs');
+const fs = require('fs').promises;
 
-const devToApiKey = process.env.DEVTO_API_KEY;
-const devToUsername = 'hriztam';
+const apiKey = process.env.DEV_TO_API_KEY;
+const readmePath = 'README.md';
 
-axios.get(`https://dev.to/api/articles?username=${devToUsername}`)
-  .then((response) => {
-    const latestArticle = response.data[0];
-    const readmeContent = `
-    # Welcome to My GitHub Profile
+async function fetchDEVArticles() {
+  try {
+    const response = await axios.get('https://dev.to/api/articles/me', {
+      headers: {
+        'api-key': apiKey,
+      },
+    });
 
-    ## Latest DEV.to Article
-    - Title: [${latestArticle.title}](${latestArticle.url})
-    - Published on: ${new Date(latestArticle.published_at).toDateString()}
-    `;
+    const articles = response.data;
 
-    fs.writeFileSync('hriztam/hriztam/README.md', readmeContent);
-  })
-  .catch((error) => {
-    console.error('Error fetching data from DEV.to:', error.response ? error.response.data : error.message);
-    process.exit(1);
-  });
+    // Generate a list of blog links with titles
+    const blogList = articles.map(article => `- [${article.title}](${article.url})`).join('\n');
+
+    // Read existing README content
+    let readmeContent = await fs.readFile(readmePath, 'utf-8');
+
+    // Identify the placeholder <!-- DEV_TO_BLOGS_START --> and <!-- DEV_TO_BLOGS_END --> in README.md
+    const startMarker = '<!-- DEV_TO_BLOGS_START -->';
+    const endMarker = '<!-- DEV_TO_BLOGS_END -->';
+
+    // Replace the content between markers with the updated blog list
+    readmeContent = readmeContent.replace(
+      new RegExp(`${startMarker}[\\s\\S]*${endMarker}`),
+      `${startMarker}\n${blogList}\n${endMarker}`
+    );
+
+    // Write the updated README content back to the file
+    await fs.writeFile(readmePath, readmeContent);
+
+    console.log('Updated README.md with DEV.to blogs.');
+  } catch (error) {
+    console.error('Error fetching or updating DEV articles:', error.message);
+  }
+}
+
+fetchDEVArticles();
