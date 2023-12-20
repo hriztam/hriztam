@@ -1,32 +1,37 @@
-name: Update README
+name: Sync DEV.to Blogs
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # Run every day at 2pm
+    - cron: "0 14 * * *"
 
-
-  workflow_dispatch: #Allows you to run this workflow manually from the Actions tab
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
-  update-readme:
+  sync:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
+    - name: Checkout Repository
+      uses: actions/checkout@v2
 
-      - name: Set Up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 14
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 14
 
-      - name: Install Dependencies
-        run: npm install axios
+    - name: Install Dependencies
+      run: npm install
 
-      - name: Update README
-        run: node updates/update-readme.js
-        env:
-          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+    - name: Run Update Readme
+      run: |
+        echo "DEV_TO_API_KEY=${{ secrets.DEV_TO_API_KEY }}" > .env
+        node updates/update-readme.js
 
-
-      # - name: Github Commit
-      #   run: git config --global user.name "hriztam" && git config --global user.email hritamstark05@gmail.com && git add . && git commit -m "Updated Readme for blogs" && git push
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "hriztam"
+        git add README.md
+        git commit -m "Update README"
+        git push
