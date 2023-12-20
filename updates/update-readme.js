@@ -4,7 +4,7 @@ const fs = require('fs');
 const devToApiKey = process.env.DEVTO_API_KEY;
 const devToUsername = 'hriztam';
 
-axios.get(`https://dev.to/api/articles?username=${hriztam}`)
+axios.get(`https://dev.to/api/articles?username=${devToUsername}`)
   .then((response) => {
     const latestArticle = response.data[0];
     const readmeContent = `
