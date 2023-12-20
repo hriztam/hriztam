@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 14 * * *'  # Run every day at 2pm
 
+
+  workflow_dispatch: #Allows you to run this workflow manually from the Actions tab
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
