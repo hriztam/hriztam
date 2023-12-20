@@ -26,3 +26,7 @@ jobs:
         run: node update-readme.js
         env:
           DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+
+
+      - name: Github Commit
+        run: git config --global user.name "hriztam" && git config --global user.email hritamstark05@gmail.com && git add . && git commit -m "Updated Readme for blogs" && git push
