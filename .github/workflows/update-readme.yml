@@ -25,7 +25,7 @@ jobs:
 
     - name: Run Update Readme
       run: |
-        echo "DEV_TO_API_KEY=${{ secrets.DEV_TO_API_KEY }}" > .env
+        echo "DEVTO_API_KEY=${{ secrets.DEVTO_API_KEY }}" > .env
         node updates/update-readme.js
 
     - name: Commit and Push Changes
