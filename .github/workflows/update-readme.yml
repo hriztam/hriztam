@@ -1,0 +1,25 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 14 * * *'  # Run every day at 2pm
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set Up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+
+      - name: Install Dependencies
+        run: npm install axios
+
+      - name: Update README
+        run: node update-readme.js
+        env:
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
