@@ -1,7 +1,7 @@
 const axios = require('axios');
 const fs = require('fs').promises;
 
-const apiKey = process.env.DEV_TO_API_KEY;
+const apiKey = process.env.DEVTO_API_KEY;
 const readmePath = 'README.md';
 
 async function fetchDEVArticles() {
@@ -21,8 +21,8 @@ async function fetchDEVArticles() {
     let readmeContent = await fs.readFile(readmePath, 'utf-8');
 
     // Identify the placeholder <!-- DEV_TO_BLOGS_START --> and <!-- DEV_TO_BLOGS_END --> in README.md
-    const startMarker = '<!-- DEV_TO_BLOGS_START -->';
-    const endMarker = '<!-- DEV_TO_BLOGS_END -->';
+    const startMarker = '<!-- DEVTO_BLOGS_START -->';
+    const endMarker = '<!-- DEVTO_BLOGS_END -->';
 
     // Replace the content between markers with the updated blog list
     readmeContent = readmeContent.replace(
