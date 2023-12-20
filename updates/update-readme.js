@@ -15,7 +15,7 @@ axios.get(`https://dev.to/api/articles?username=${devToUsername}`)
     - Published on: ${new Date(latestArticle.published_at).toDateString()}
     `;
 
-    fs.writeFileSync('README.md', readmeContent);
+    fs.writeFileSync('hriztam/hriztam/README.md', readmeContent);
   })
   .catch((error) => {
     console.error('Error fetching data from DEV.to:', error.response ? error.response.data : error.message);
