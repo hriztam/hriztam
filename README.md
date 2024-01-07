@@ -10,7 +10,7 @@
 - ⚡ My interests are **watching anime and playing football**
 
 ---
-### Blogs posts
+### Blogs 
 <!-- BLOG-POST-LIST:START -->
 - [Understanding React&#39;s `useState` Hook](https://dev.to/hriztam/understanding-reacts-usestate-hook-438o)
 - [&quot;ReactJS vs. Next.js: Unveiling the Web Development Showdown&quot;](https://dev.to/hriztam/reactjs-vs-nextjs-unveiling-the-web-development-showdown-3heh)
