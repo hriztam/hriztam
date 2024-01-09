@@ -17,4 +17,4 @@ jobs:
                 feed_list: "https://dev.to/feed/hriztam"
 
             - name: Github Commit
-              run: git config --global user.name "hriztam" && git config --global user.email hritamstark05@gmail.com && git add . && git commit -m "Updated Readme for Blogs" && git push
+              run: git config --global user.name "hriztam" && git config --global user.email hritamstark05@gmail.com
