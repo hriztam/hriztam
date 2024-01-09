@@ -1,7 +1,7 @@
-name: Latest blog post workflow
+name: Sync Dev.to Blogs
 on: 
     schedule:
-        - cron: '0 14 * * *' # Runs everyday at 14:00
+        - cron: "0 14 * * *" # Runs everyday at 14:00
 
     # Allows you to run the worflows manually from actions tab
     workflow_dispatch:
@@ -15,3 +15,6 @@ jobs:
               with: 
                 max_post_count: "4"
                 feed_list: "https://dev.to/feed/hriztam"
+
+            - name: Github Commit
+              run: git config --global user.name "hriztam" && git config --global user.email hritamstark05@gmail.com && git add . && git commit -m "Updated Readme for Blogs" && g
