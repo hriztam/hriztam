@@ -12,10 +12,10 @@
 ---
 ### Blogs 
 <!-- BLOG-POST-LIST:START -->
+- [Mastering React&#39;s `useEffect` Hook](https://dev.to/hriztam/mastering-reacts-useeffect-hook-179a)
 - [Understanding React&#39;s `useState` Hook](https://dev.to/hriztam/understanding-reacts-usestate-hook-438o)
 - [&quot;ReactJS vs. Next.js: Unveiling the Web Development Showdown&quot;](https://dev.to/hriztam/reactjs-vs-nextjs-unveiling-the-web-development-showdown-3heh)
 - [Data locations in solidity](https://dev.to/hriztam/data-locations-in-solidity-3de5)
-- [&quot;Decoding Gas in Blockchain: Fuelling Efficiency and Scalability&quot;](https://dev.to/hriztam/decoding-gas-in-blockchain-fuelling-efficiency-and-scalability-40h3)
 <!-- BLOG-POST-LIST:END -->
 
 ---
