@@ -1,7 +1,7 @@
 name: Sync Dev.to Blogs
 on: 
     schedule:
-        - cron: "0 14 * * *" # Runs everyday at 14:00
+        - cron: "0 * * * *" # Runs everyday at 00:00
 
     # Allows you to run the worflows manually from actions tab
     workflow_dispatch:
