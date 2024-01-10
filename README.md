@@ -12,10 +12,10 @@
 ---
 ### Blogs 
 <!-- BLOG-POST-LIST:START -->
+- [Rust Programming Quick Start Guide](https://dev.to/hriztam/rust-programming-quick-start-guide-b39)
 - [Mastering React&#39;s `useEffect` Hook](https://dev.to/hriztam/mastering-reacts-useeffect-hook-179a)
 - [Understanding React&#39;s `useState` Hook](https://dev.to/hriztam/understanding-reacts-usestate-hook-438o)
 - [&quot;ReactJS vs. Next.js: Unveiling the Web Development Showdown&quot;](https://dev.to/hriztam/reactjs-vs-nextjs-unveiling-the-web-development-showdown-3heh)
-- [Data locations in solidity](https://dev.to/hriztam/data-locations-in-solidity-3de5)
 <!-- BLOG-POST-LIST:END -->
 
 ---
