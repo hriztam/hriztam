@@ -12,10 +12,10 @@
 ---
 ### Blogs 
 <!-- BLOG-POST-LIST:START -->
+- [Server-Side Rendering v/s Client-Side Rendering](https://dev.to/hriztam/server-side-rendering-vs-client-side-rendering-2b2n)
 - [Rust Programming Quick Start Guide](https://dev.to/hriztam/rust-programming-quick-start-guide-b39)
 - [Mastering React&#39;s `useEffect` Hook](https://dev.to/hriztam/mastering-reacts-useeffect-hook-179a)
 - [Understanding React&#39;s `useState` Hook](https://dev.to/hriztam/understanding-reacts-usestate-hook-438o)
-- [&quot;ReactJS vs. Next.js: Unveiling the Web Development Showdown&quot;](https://dev.to/hriztam/reactjs-vs-nextjs-unveiling-the-web-development-showdown-3heh)
 <!-- BLOG-POST-LIST:END -->
 
 ---
