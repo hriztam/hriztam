@@ -12,10 +12,10 @@
 ---
 ### Blogs 
 <!-- BLOG-POST-LIST:START -->
+- [Recursion in JavaScriprt](https://dev.to/hriztam/recursion-in-javascriprt-2499)
 - [Mastering Next.js: Unleashing the Power of Modern Web Development](https://dev.to/hriztam/mastering-nextjs-unleashing-the-power-of-modern-web-development-p09)
 - [Top 5 Best Frontend Projects in 2024](https://dev.to/hriztam/top-5-best-frontend-projects-in-2024-3a70)
 - [Server-Side Rendering v/s Client-Side Rendering](https://dev.to/hriztam/server-side-rendering-vs-client-side-rendering-2b2n)
-- [Rust Programming Quick Start Guide](https://dev.to/hriztam/rust-programming-quick-start-guide-b39)
 <!-- BLOG-POST-LIST:END -->
 
 ---
