@@ -7,7 +7,7 @@
 
 - 💬 Ask me about **NextJS, typescript, etc**
 
-- ⚡ My interests are **watching anime and playing football**
+- ⚡ My interests are **Watching Anime and Playing Football**
 
 ---
 ### Blogs 
