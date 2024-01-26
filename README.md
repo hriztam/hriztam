@@ -5,7 +5,7 @@
 
 - 📝 I regularly write articles on [https://dev.to/hriztam](https://dev.to/hriztam)
 
-- 💬 Ask me about **NextJS, typescript, etc**
+- 💬 Ask me about **NextJS, Typescript, etc**
 
 - ⚡ My interests are **Watching Anime and Playing Football**
 
