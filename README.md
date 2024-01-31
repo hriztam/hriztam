@@ -12,10 +12,10 @@
 ---
 ### Blogs 
 <!-- BLOG-POST-LIST:START -->
+- [Arrow Functions vs. Normal Functions in JavaScript](https://dev.to/hriztam/arrow-functions-vs-normal-functions-in-javascript-2l70)
 - [Recursion in JavaScriprt](https://dev.to/hriztam/recursion-in-javascriprt-2499)
 - [Mastering Next.js: Unleashing the Power of Modern Web Development](https://dev.to/hriztam/mastering-nextjs-unleashing-the-power-of-modern-web-development-p09)
 - [Top 5 Best Frontend Projects in 2024](https://dev.to/hriztam/top-5-best-frontend-projects-in-2024-3a70)
-- [Server-Side Rendering v/s Client-Side Rendering](https://dev.to/hriztam/server-side-rendering-vs-client-side-rendering-2b2n)
 <!-- BLOG-POST-LIST:END -->
 
 ---
