@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Hritam Shrivastava</h1>
 <h3 align="center">A passionate full stack and blockchain developer</h3>
 
-- 🌱 I’m currently learning **blockchain and solidity**
+- 🌱 I’m currently learning **Blockchain and DSA**
 
 - 📝 I regularly write articles on [https://dev.to/hriztam](https://dev.to/hriztam)
 
