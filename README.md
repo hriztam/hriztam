@@ -12,10 +12,10 @@
 ---
 ### Blogs 
 <!-- BLOG-POST-LIST:START -->
+- [Git Mastery: A Complete Guide](https://dev.to/hriztam/git-mastery-a-complete-guide-2450)
 - [Arrow Functions vs. Normal Functions in JavaScript](https://dev.to/hriztam/arrow-functions-vs-normal-functions-in-javascript-2l70)
 - [Recursion in JavaScriprt](https://dev.to/hriztam/recursion-in-javascriprt-2499)
 - [Mastering Next.js: Unleashing the Power of Modern Web Development](https://dev.to/hriztam/mastering-nextjs-unleashing-the-power-of-modern-web-development-p09)
-- [Top 5 Best Frontend Projects in 2024](https://dev.to/hriztam/top-5-best-frontend-projects-in-2024-3a70)
 <!-- BLOG-POST-LIST:END -->
 
 ---
