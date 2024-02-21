@@ -12,10 +12,10 @@
 ---
 ### Blogs 
 <!-- BLOG-POST-LIST:START -->
+- [Ownership and Memory Management in Rust](https://dev.to/hriztam/ownership-and-memory-management-in-rust-1nii)
 - [Integrating Generative AI into a Node.js Application](https://dev.to/hriztam/integrating-generative-ai-into-a-nodejs-application-25ag)
 - [Arguments vs Parameters in JavaScript](https://dev.to/hriztam/arguments-vs-parameters-in-javascript-4kl2)
 - [Git Mastery: A Complete Guide](https://dev.to/hriztam/git-mastery-a-complete-guide-2450)
-- [Arrow Functions vs. Normal Functions in JavaScript](https://dev.to/hriztam/arrow-functions-vs-normal-functions-in-javascript-2l70)
 <!-- BLOG-POST-LIST:END -->
 
 ---
