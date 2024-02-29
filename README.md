@@ -12,10 +12,10 @@
 ---
 ### Blogs 
 <!-- BLOG-POST-LIST:START -->
+- [Mastering Object-Oriented Programming: Principles and Concepts](https://dev.to/hriztam/mastering-object-oriented-programming-principles-and-concepts-4j5f)
 - [Ownership and Memory Management in Rust](https://dev.to/hriztam/ownership-and-memory-management-in-rust-1nii)
 - [Integrating Generative AI into a Node.js Application](https://dev.to/hriztam/integrating-generative-ai-into-a-nodejs-application-25ag)
 - [Arguments vs Parameters in JavaScript](https://dev.to/hriztam/arguments-vs-parameters-in-javascript-4kl2)
-- [Git Mastery: A Complete Guide](https://dev.to/hriztam/git-mastery-a-complete-guide-2450)
 <!-- BLOG-POST-LIST:END -->
 
 ---
