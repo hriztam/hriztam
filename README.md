@@ -1,7 +1,32 @@
 <h1 align="center">Hi 👋, I'm Hritam </h1>
 <h3 align="center">A Human lets say😅</h3>
 
+- 🌱 I’m currently learning **Blockchain and DSA**
 
+- 📝 I regularly write articles on [https://dev.to/hriztam](https://dev.to/hriztam)
+
+- 💬 Ask me about **NextJS, Typescript, etc**
+
+- ⚡ My interests are **Watching Anime and Playing Football**
+
+---
+### Blogs 
+<!-- BLOG-POST-LIST:START -->
+- [Mastering Object-Oriented Programming: Principles and Concepts](https://dev.to/hriztam/mastering-object-oriented-programming-principles-and-concepts-4j5f)
+- [Ownership and Memory Management in Rust](https://dev.to/hriztam/ownership-and-memory-management-in-rust-1nii)
+- [Integrating Generative AI into a Node.js Application](https://dev.to/hriztam/integrating-generative-ai-into-a-nodejs-application-25ag)
+- [Arguments vs Parameters in JavaScript](https://dev.to/hriztam/arguments-vs-parameters-in-javascript-4kl2)
+<!-- BLOG-POST-LIST:END -->
+
+---
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/cypherhritam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="cypherhritam" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/cypher-hritam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cypher-hritam" height="30" width="40" /></a>
+<a href="https://instagram.com/cypherhritam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="cypherhritam" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/cypherhritam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="cypherhritam" height="30" width="40" /></a>
+</p>
 ---
 
 <h3 align="left">Languages and Tools:</h3>
